@@ -1,0 +1,19 @@
+{
+    "pacOwnerId": "f9eb3cd4-c6ef-41a6-99c0-a9cdb4e60c59",
+    "managedIdentityLocations": {
+        "*": "australiaeast"
+    },
+    "globalNotScopes": {
+        "*": [
+            "/resourceGroupPatterns/managed-rg-*"
+        ]
+    },
+    "pacEnvironments": [
+        {
+            "pacSelector": "dev",
+            "cloud": "AzureCloud",
+            "tenantId": "",
+            "deploymentRootScope": "/providers/Microsoft.Management/managementGroups/dev"
+        }
+    ]
+}
